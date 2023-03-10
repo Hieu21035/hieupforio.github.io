@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+/*ナビゲーションメニュー SP--------------------------*/
+
+.wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+/*ここからheader-nav*/
+header{
+	/*align-items: stretch;*/
+	width: 15%;
+	background-color: #EAEAEA;
+	border-left: 2px medium #6E6E6E;
+	display: block;
+}
+#nav{
+	padding-top: 50px;
+	text-align: center;
+}
+.nav-name{
+	font-family: Tahoma, Geneva, "sans-serif";
+	font-size: 15px;
+	color: #4C4C4C;
+}
+.nav-email{
+	font-family: Tahoma, Geneva, "sans-serif";
+	font-size: 10px;
+	color: #4C4C4C;
+}
+
+.gnav{
+	/*width: 145px;*/
+	padding-top: 28px;
+	
+}
+.gnav li {
+	padding: 10px 0 ;
+	
+}
+ a{
+	font-weight: bold;
+  font-size: 16px;
+  letter-spacing: .1em;
+	color: #333;
+	
+}
+.gnav li a:link {
+  text-decoration: none;
+color: #4C4C4C;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #45672E;
+}
+
+a:active {
+  text-decoration: underline;
+}
+/*ここまでheader*/
+/*ここからtop*/
+#top{
+	height: 550px;
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("profile/header01.jpg");
+	
+}
+#top .logo-name {
+  display: block;
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  line-height: 1;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+#top .logo-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 88px;
+  font-weight: normal;
+  color: #D8E9A9;
+  line-height: 1;
+  letter-spacing: .1em;
+}
+
+#top .logo-desc {
+  font-family: "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "游明朝体", "Yu Mincho", YuMincho, "MS P明朝", "MS PMincho", serif;
+  flex-direction: column;
+  font-size: 14px;
+  letter-spacing: .2em;
+  text-align: center;
+  margin-top: 10px;
+	display: block;
+
+}
+/*ここまでtop*/
+/*ここから info*/
+.info{
+	width: 100%;
+	background-color: khaki;
+}
+/*ここからprofile*/
+.profile{
+	padding: 30px 40px;
+	
+}
+h2{
+	text-align: center;
+}
+.prof_inner{
+	display: flex;
+}
+.profile dl{
+	padding-left: 20px;
+}
+.profile dt{
+	font-size: 18px;
+/*  font-weight: bold;*/
+  float: left; /*項目名と内容文を横に並び*/
+  width: 180px; /*項目名部の幅の指定*/
+  margin-bottom: 5px; /*次の項目との間に余白を空ける*/
+}
+.profile dd{
+	 margin-bottom: 8px; /*次の項目との間に余白を空ける*/
+  font-size: 18px;
+}
+/*ここまで\profile*/
+/*ここからwork*/
+/*ここからskill*/
+#skill{
+/*	width: 880px;
+	height: 300px;*/
+	
+	text-align: center;
+	position: relative;
+	background-color: antiquewhite;
+	padding-bottom: 40px;
+}
+/*.section-content {
+  width: 100%;
+  padding-bottom: 40px;
+	position: static;
+}
+
+.section-content dl{
+	padding-left: 20px;
+}
+.section-content dt{
+	float: left;
+		 width: 180px;
+	 margin-bottom: 5px; 
+}
+.section-content dd{
+	margin-bottom: 8px;
+}*/
+.rowl-03{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.1px dotted #6c6c6c;
+	padding: 10px 40px;
+}
+.info-03{
+	align-items: baseline;
+}
+
+/*ここまでskill*/
+/*ここから featurer*/
+.two-column-wrapper{
+	display: flex;
+}
+.section-title-block{
+	text-align: center;
+}
+/*ここまでfeature*/
+
+/*ここまでwork*/
+
+
+/*ここまで　info*/
+
+
+
+
+
+
